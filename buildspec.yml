@@ -6,4 +6,4 @@ phases:
       dotnet: 3.0
   build:
     commands:
-      - dotnet build -c Release .\TestApplication\TestApplication.csproj
+      - dotnet build -c Release 
