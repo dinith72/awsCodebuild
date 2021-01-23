@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UI2egpTc88MSCjpyQtH+PQo6+W6m/kQlR7tvGK280w0O4TVrQ99190yY1Xi4DVaAOrnQUMnSSoxoyV1Z9IiIYg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dinith Jayabodhi\\source\\repos\\TestApplication\\TestApplication\\TestApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dinith Jayabodhi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
