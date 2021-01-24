@@ -20,7 +20,7 @@ jobs:
         run: dotnet build  -c Release
       - name: publish
         run: dotnet publish -c Release
-      - name: get_pwd
-        run: pwd
+      # - name: get_pwd
+      #   run: pwd
       - name: Release to S3
         run: bash scripts/pipeline/release.sh ${{secrets.AWS_BUCKET_NAME}} "BuildArtifacts_GithubActions/testBuild.zip" ${{secrets.AWS_ACESS_KEY}} ${{secrets.AWS_ACESS_SECRET}} "app_deploy.zip"
