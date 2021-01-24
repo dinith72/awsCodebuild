@@ -13,6 +13,8 @@ pwd
 cd ./TestApplication/bin/Release/netcoreapp3.1/publish/
 #zip -r $local_path . -x .git/ .git/*** .github/workflows/release.yml scripts/pipeline/release.sh scripts/pipeline/upload_file_to_s3.py .DS_Store
 zip -r $local_path .
+cd ../../../../../
+pwd
 
 # Install required dependencies for Python script.
 pip3 install boto3
