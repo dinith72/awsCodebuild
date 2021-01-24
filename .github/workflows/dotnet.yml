@@ -20,4 +20,5 @@ jobs:
         run: dotnet build  -c Release
       - name: publish
         run: dotnet publish -c Release
-          pwd
+      -name: get_pwd
+        run: pwd
